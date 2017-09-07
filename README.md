@@ -55,13 +55,13 @@ For details about the supported URIs, verbs and parameters, please refer to the 
 
 * **WebSecurityConfig** deals with authentication and authorization:
 
- * *Basic* HTTP authentication is employed all over the web service
+    * *Basic* HTTP authentication is employed all over the web service
 
- * CSRF checks are disabled, as a RESTful web service has no state
+    * CSRF checks are disabled, as a RESTful web service has no state
 
- * the **/users** area is only available to the **admin** role
+    * the **/users** area is only available to the **admin** role
 
- * OPTIONS preflight requests (e.g., for CORS) are always available out of the admin-only area
+    * OPTIONS preflight requests (e.g., for CORS) are always available out of the admin-only area
 
 * **Task** and **User** are *read-only objects* - functional style introduces more productivity and less errors. For example, in Scala these classes would be *case classes*
 
@@ -82,23 +82,23 @@ For details about the supported URIs, verbs and parameters, please refer to the 
 
  * The project features several aspects of **Java 8**:
 
-  * Streams
+     * Streams
 
-  * Lambdas
+     * Lambdas
 
-  * Optional
+     * Optional
 
-  * Map::computeIfAbsent
+     * Map::computeIfAbsent
 
 * Automated tests verify the behavior of the REST controllers; in particular, they employ:
 
- * Spring Test
+    * Spring Test
 
- * JUnit
+    * JUnit
 
- * Hamcrest
+    * Hamcrest
 
- * Mockito
+    * Mockito
 
 
 ## Further references
